@@ -1,0 +1,3 @@
+# Ignore log files
+*package.json
+*package-lock.json
