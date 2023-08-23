@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+  .btn-dark {
+    padding: 0.7rem 7rem; }
+  .bold-head {
+    font-size: 1.5rem; }
+  .light-head {
+    font-size: 1.5rem;
+    font-weight: lighter; }
+  .paragraph-mobile {
+    font-size: 1rem; }
+  .number {
+    font-size: 2rem;
+    font-weight: bold; }
+  .container {
+    max-width: 1280px;
+    margin: 0 2rem;
+    overflow: hidden; }
+  #head {
+    background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+    height: 28vh;
+    border-bottom: 2px solid #f79520; }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 150px; }
+  .navbar ul li {
+    padding: 1rem; }
+  .navbar img {
+    width: 70px;
+    height: 70px; }
+  .navbar ul li a {
+    font-size: 1.1rem; }
+  .showcase .btn {
+    display: none; }
+  /* Section One */
+  .list {
+    flex-direction: column;
+    margin: 20px 0; }
+  .list .box {
+    padding: 20px 0; }
+  /* Section Two */
+  .list-2 {
+    flex-direction: column; }
+  .list-2 .box {
+    width: 100%; }
+  .process {
+    flex-direction: column; }
+  .process .icons {
+    margin: 20px 0; }
+  /* Footer */
+  .end {
+    flex-direction: column;
+    padding: 1.5rem 0;
+    height: 8rem; }
+    .end .social {
+      padding-top: 0.8rem; }
+  .navbar_img {
+    background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+    border-bottom: 2px solid #f79520;
+    height: 28vh; }
+  .project {
+    grid-template-columns: 1fr; }
+    .project .text p {
+      font-size: 1.2rem; }
+  .logos {
+    display: none; }
+  .testimonials {
+    flex-direction: column; }
+    .testimonials p {
+      font-size: 1.2rem; }
+    .testimonials img {
+      width: 60px;
+      height: 60px; }
+    .testimonials .person {
+      padding: 2rem 0; }
+  .work {
+    grid-template-columns: repeat(1, 1fr); }
+  .contact form {
+    grid-template-columns: repeat(1, 1fr); }
+    .contact form textarea {
+      grid-column: 1 / span 1; }
+  .list.phone .box {
+    border-bottom: 0.4px solid rgba(224, 213, 213, 0.3);
+    width: 100%; }
+    .list.phone .box:last-child {
+      border-bottom: none; }
+  .next {
+    font-size: 40px; } }
